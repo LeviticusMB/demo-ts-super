@@ -17,7 +17,6 @@ class URI extends URL {
     }
 
     set _href(href: string) {
-        // @ts-ignore Why is this an error?
         super.href = href;
     }
 }
